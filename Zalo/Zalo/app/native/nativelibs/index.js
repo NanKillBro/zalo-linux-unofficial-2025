@@ -26,6 +26,12 @@ var instance = module.exports = {
     },
     zjxl: () => {
         return require('./zjxl/index.js');
+    },
+    zwalker: () => {
+        return require('./zwalker/index.js');
+    },
+    zfile: () => {
+        return require('./zfile/index.js');
     }
 }
 //////////////////////////////

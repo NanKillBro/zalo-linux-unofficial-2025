@@ -88,7 +88,18 @@ function getLib() {
     }
   }
 
-  return { decodeToJpeg, bitmapToJxl, getJxlInfo, resizeJxl, resizeJxlLimit, moduleReady}
+  const jxlDecompressMulti = (options) => {
+    return new Promise((resolve, reject) => {
+      nodeAddon.jxlDecompressMulti(options, (error, data, status_code) => {
+        if (error) {
+          console.error('jxlDecompressMulti error: ', error);
+          reject(createCustomError(status_code, "jxlDecompressMulti error"));
+        } else resolve({data, status_code });
+      });
+    });
+  }
+
+  return { decodeToJpeg, bitmapToJxl, getJxlInfo, resizeJxl, resizeJxlLimit, moduleReady, jxlDecompressMulti };
 }
 
 module.exports = getLib();

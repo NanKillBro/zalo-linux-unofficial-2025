@@ -2,7 +2,7 @@
 export PATH=/bin:/usr/bin:/usr/local/bin:/sbin:/usr/sbin:/usr/local/sbin
 rm -rf /tmp/zalo-update
 mkdir /tmp/zalo-update
-git clone https://github.com/realdtn2/zalo-linux-unofficial /tmp/zalo-update
+git clone https://github.com/NanKillBro/zalo-linux-unofficial-2025 /tmp/zalo-update
 cd /tmp/zalo-update
 
 LANGUAGE=$(cat $HOME/.local/share/Zalo/lang.txt 2>/dev/null)
@@ -14,7 +14,7 @@ check_version() {
     local current_version
     local latest_version
     current_version=$(cat $HOME/.local/share/Zalo/version.txt 2>/dev/null)
-    latest_version=$(curl -s https://raw.githubusercontent.com/realdtn2/zalo-linux-unofficial/main/version.txt)
+    latest_version=$(curl -s https://raw.githubusercontent.com/NanKillBro/zalo-linux-unofficial-2025/main/version.txt)
 
     if [ "$current_version" == "$latest_version" ]; then
         if [ "$LANGUAGE" == "EN" ]; then

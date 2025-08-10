@@ -1,9 +1,7 @@
 # Zalo for Linux (Unofficial Port)
-
 ## Information
 
 **THIS IS NOT USING THE ZALO WEBSITE,IT IS PORTED DIRECTLY FROM THE ZALO MAC DESKTOP CLIENT**
-YOU CAN'T CALL
 
 This project is an unofficial port of the MacOS version of Zalo to Linux. The porting process involved extracting the `.dmg` file from the MacOS version and locating the `app.asar` file in the directory, which is typically found in `/Applications/YourAppName.app/Contents/Resources`. The following steps were taken:
 
@@ -36,13 +34,13 @@ To install Zalo for Linux, you can choose one of these two:
 
 ***Recommended***
 ```bash
-sh -c "$(curl -sSL https://raw.githubusercontent.com/realdtn2/zalo-linux-unofficial/main/install_curl.sh)"
+sh -c "$(curl -sSL https://raw.githubusercontent.com/NanKillBro/zalo-linux-unofficial-2025/main/install_curl.sh)"
 ```
 
 or
 
 ```bash
-git clone https://github.com/realdtn2/zalo-linux-unofficial
+git clone https://github.com/NanKillBro/zalo-linux-unofficial-2025
 cd zalo-linux-unofficial
 chmod +x install.sh
 ./install.sh
@@ -62,5 +60,10 @@ sudo chmod 4755 $HOME/.local/share/Zalo/electron-v22.3.27-linux-x64/chrome-sandb
 ```
 
 ## Bugs
-
+- There is no Minimize, Maximize or Close button.
+- Can't make any call 
+- No Message Synchronization (E2EE): You will need to install Zalo PC on wine and then do the Message Synchronization. After that, backup all Zalo data using the built-in Export function and then Import on this.
 There will be some bugs, as I don't have an understanding of how electron work, I won't be able to fix any bugs.
+
+## Credit
+- Original Repo: https://github.com/realdtn2/zalo-linux-unofficial-2024
