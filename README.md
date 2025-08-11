@@ -1,4 +1,5 @@
 # Zalo for Linux (Unofficial Port)
+[Portable .AppImage version here](github.com/NanKillBro/zalo-for-linux-2025/releases) (No ZaDark version, only normal ZaloPC)
 ## Information
 
 **THIS IS NOT USING THE ZALO WEBSITE,IT IS PORTED DIRECTLY FROM THE ZALO MAC DESKTOP CLIENT**
