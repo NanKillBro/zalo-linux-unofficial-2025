@@ -16,15 +16,14 @@ This project is an unofficial port of the MacOS version of Zalo to Linux. The po
 
 Additionally, `install.sh` is used to add a tray icon using Python.
 
-Working on Nobara 39 KDE Plasma,Ubuntu 22.04 XFCE4
+Tested on CachyOS with Gnome 48.4
+- Zalo 25.8.1
+<img width="1920" height="1080" alt="ảnh" src="https://github.com/user-attachments/assets/3f874f5f-6362-45d1-ae29-1fc663acb129" />
+<img width="1920" height="1080" alt="ảnh" src="https://github.com/user-attachments/assets/4373b2ba-a807-4f8d-90ba-2ac4a66e2174" />
 
-![Screenshot_20240809_053634](https://github.com/user-attachments/assets/cad8e69c-a5ea-47a5-bfba-7f75bba9ca4f)
-![Screenshot_20240809_054034](https://github.com/user-attachments/assets/f145e10a-10f9-4bd2-a91e-24f06f0f9bf3)
-
-![Screenshot_20240809_053806](https://github.com/user-attachments/assets/cb7674e3-a856-42a9-9b78-c4ca93fd6f3b)
-![Screenshot_20240809_053944](https://github.com/user-attachments/assets/781ddbd0-9404-4666-ab77-eeb8f8596a7a)
-
-
+- Zalo 25.7.2 with ZaDark
+<img width="1920" height="1080" alt="ảnh" src="https://github.com/user-attachments/assets/8afb0d1c-88de-4088-aa5f-3d4798c1d6cf" />
+<img width="1920" height="1080" alt="ảnh" src="https://github.com/user-attachments/assets/5947b563-97d1-4f14-b260-c495fb7f0eab" />
 
 ## Installation
 
@@ -63,7 +62,10 @@ sudo chmod 4755 $HOME/.local/share/Zalo/electron-v22.3.27-linux-x64/chrome-sandb
 - There is no Minimize, Maximize or Close button.
 - Can't make any call 
 - No Message Synchronization (E2EE): You will need to install Zalo PC on wine and then do the Message Synchronization. After that, backup all Zalo data using the built-in Export function and then Import on this.
-There will be some bugs, as I don't have an understanding of how electron work, I won't be able to fix any bugs.
+- No Photos/Videos, Files and Links on the Contact Info panel for some reason (you can still viewing image/video, file or link like normal, it just don't appear on the contact info like this)
+<img width="337" height="390" alt="image" src="https://github.com/user-attachments/assets/64ba27d6-ea5c-41be-bf0c-2993fd802e67" />
+
+- There will be some bugs, as I don't have an understanding of how electron work, I won't be able to fix any bugs.
 
 ## Credit
 - Original Repo: https://github.com/realdtn2/zalo-linux-unofficial-2024
