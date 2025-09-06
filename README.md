@@ -61,7 +61,7 @@ sudo chmod 4755 $HOME/.local/share/Zalo/electron-v22.3.27-linux-x64/chrome-sandb
 ```
 
 ## Bugs
-- There is no Minimize, Maximize or Close button. (Will fix in the next Zalo release, I had found a fix for that)
+- There is no Minimize, Maximize and Close button. (Fixed in the latest release)
 - Can't make any call
 - Using the Zalo Screenshot will instantly lead to crash.
 - No Message Synchronization (E2EE): You will need to install Zalo PC on wine and then do the Message Synchronization. After that, backup all Zalo data using the built-in Export function and then Import on this.
