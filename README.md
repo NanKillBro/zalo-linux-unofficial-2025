@@ -72,3 +72,5 @@ sudo chmod 4755 $HOME/.local/share/Zalo/electron-v22.3.27-linux-x64/chrome-sandb
 
 ## Credit
 - Original Repo: https://github.com/realdtn2/zalo-linux-unofficial-2024
+- Zadark: https://github.com/quaric/zadark
+- Zadark app.asar: https://github.com/l3qua
